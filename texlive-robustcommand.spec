@@ -50,6 +50,7 @@ command before declaring it robust.
 #- source
 %doc %{_texmfdistdir}/source/latex/robustcommand/robustcommand.dtx
 %doc %{_texmfdistdir}/source/latex/robustcommand/robustcommand.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ command before declaring it robust.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
