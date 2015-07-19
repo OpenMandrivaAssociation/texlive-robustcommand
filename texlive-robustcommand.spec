@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-robustcommand
 Version:	0.1
-Release:	9
+Release:	10
 Summary:	Declare robust command, with \newcommand checks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/robustcommand
