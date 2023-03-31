@@ -1,6 +1,6 @@
 Name:		texlive-robustcommand
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Declare robust command, with \newcommand checks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/robustcommand
